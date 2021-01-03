@@ -3,11 +3,11 @@
 ## 安装
 
 ```bash
-yarn global add a-cli
+yarn global add shuaizhang-cli
 ```
 
 ## 使用
 
 ```bash
-npx create-project simple my-project
+create-project simple my-project
 ```
