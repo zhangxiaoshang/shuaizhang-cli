@@ -1,0 +1,26 @@
+{
+  "name": "shuaizhang-cli",
+  "version": "1.0.0",
+  "description": "脚手架工具",
+  "main": "index.js",
+  "bin": {
+    "@boling/create-project": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^6.2.1",
+    "esm": "^3.2.25",
+    "git-clone": "^0.1.0",
+    "shelljs": "^0.8.4",
+    "tracer": "^1.1.4"
+  }
+}
